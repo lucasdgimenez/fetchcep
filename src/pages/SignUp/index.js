@@ -18,8 +18,7 @@ const SignUp = () => {
   const [uf, setUf] = useState("");
   const [district, setDistrict] = useState("");
   
-  //const [errors, setErrors] = useState([]);
-  {/*const handleSignup = () => {
+  /*const handleSignup = () => {
     //middle man
     if (password === confirmPassword) {
       console.log("handleSignup");
@@ -30,7 +29,7 @@ const SignUp = () => {
       console.log(errors);
       alert("Senha digitada de forma incorreta");
     }
-  }*/};
+  }*/
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("handleSubmit");
